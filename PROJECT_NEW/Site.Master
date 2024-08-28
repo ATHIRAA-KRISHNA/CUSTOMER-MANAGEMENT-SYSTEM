@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Customer Management</title>
+    <link href="Styles/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <div class="header">
+            <h1>Customer Management System</h1>
+            <nav>
+                <a href="CustomerDetails.aspx">Add Customer</a>
+                <a href="SearchCustomerDetails.aspx">Search Customer</a>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <p>&copy; 2024 Customer Management System</p>
+        </div>
+    </form>
+</body>
+</html>
